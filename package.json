@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-canvas-painting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ielkanyuk/rxjs-canvas-painting.git"
+  },
+  "author": "Igor Elkanyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ielkanyuk/rxjs-canvas-painting/issues"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.0"
+  }
+}
